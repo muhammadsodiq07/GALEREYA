@@ -1,0 +1,75 @@
+#footer {
+  padding-top: 100px;
+}
+
+.footer__section {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  background-color: #161616;
+}
+
+.footer__main {
+  padding-top: 40px;
+}
+
+.footer__item {
+  @include list-unstyled;
+}
+
+.footer__h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+  color: $text-color;
+  text-transform: uppercase;
+}
+
+.footer__link {
+  font-family: $fonts-Manrope;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: $text-color;
+  text-decoration: none;
+}
+
+.footer__text {
+  font-family: $fonts-Manrope;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+  color: $text-color;
+  text-transform: uppercase;
+}
+
+.footer__phone-number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: $text-color;
+  text-decoration: none;
+}
+
+.footer__hr {
+  margin-top: 40px;
+  border: 1px solid $title-color;
+}
+
+.footer__desc {
+  font-family: $fonts-Manrope;
+  color: $text-color;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer__online {
+  font-family: $fonts-Manrope;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: $text-color;
+}

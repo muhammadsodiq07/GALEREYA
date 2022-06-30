@@ -1,0 +1,26 @@
+
+.header {
+  padding-top: 24px;
+}
+
+.header__item {
+  @include list-unstyled;
+  margin-right: 32px;
+}
+.header__link {
+  font-family: $fonts-Brygada;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color-black;
+
+  
+}
+
+.header__icon {
+  font-size: 24px;
+}
+
+
+.header__select {
+  border: 1px solid transparent;
+}

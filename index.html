@@ -1,23 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="css/main.min.css" />
-  </head>
 
-  <body>
-    <script src="js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GALEREYA</title>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+
+  <header id="header">
+    <section class="header">
+      <div class="container">
+        <div class="header__main--div d-flex align-items-center justify-content-between">
+          <div class="header__logo--div">
+            <a class="header__logo--link" href="#">
+              <img class="header__logo--img" src="images/logo.svg" alt="logo">
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list d-flex align-items-center">
+              <li class="header__item">
+                <a class="header__link d-flex align-items-center" href="#">
+                  Maktablar Faoliyati
+                  <i class='bx bx-chevron-down header__icon'></i>
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">
+                  Xujjatlar
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link d-flex align-items-center" href="#">
+                  Galereya
+                  <i class='bx bx-chevron-down header__icon'></i>
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link d-flex align-items-center" href="#">
+                  Xizmatlar
+                  <i class='bx bx-chevron-down header__icon'></i>
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">
+                  Adabiyotlar
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">
+                  xabarlar
+                </a>
+              </li>
+              <select class="header__select">
+                <option value="O'Z">O'Z</option>
+                <option value="O'Z">ENG</option>
+                <option value="O'Z">RUS</option>
+              </select>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </header>
+
+
+  <main id="main">
+    <section class="galeria">
+      <div class="container">
+        <h1 class="galeria__title">
+          GALEREYA
+        </h1>
+        <div class="text__btn-holder d-flex align-items-center justify-content-center">
+          <button class="galeria__photo galeria__btn">
+            Foto jamlanmalar
+          </button>
+          <button class="galeria__video galeria__btn">
+            Video jamlanmalar
+          </button>
+          <span class="text__color"></span>
+        </div>
+        <hr>
+        <div class="galeria__photos--imgs grid show-it">
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/first.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/second.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/third.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/fourth.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/fifth.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/sixth.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/seventh.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/eight.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/ninth.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/ten.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/eleven.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/teweleb.jpg" alt="hourse">
+          </div>
+        </div>
+        <div class="galeria__photos--videos grid">
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/0MzTFt_O1xo"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/Zsq92D3zMgI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/Zsq92D3zMgI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/Zsq92D3zMgI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/Zsq92D3zMgI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/0MzTFt_O1xo"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/0MzTFt_O1xo"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/Zsq92D3zMgI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <iframe class="galeria__img" width="560" height="315" src="https://www.youtube.com/embed/Zsq92D3zMgI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/ten.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/eleven.jpg" alt="hourse">
+          </div>
+          <div class="galeria__box">
+            <img class="galeria__img" src="images/teweleb.jpg" alt="hourse">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer id="footer" class="footer">
+    <section class="footer__section">
+      <div class="container">
+        <div class="footer__main d-flex justify-content-between">
+          <div class="footer__logo-div">
+            <a href="#">
+              <img class="footer__logo-img" src="images/footerlogo.svg" alt="logo">
+            </a>
+            <ul class="footer__list d-flex align-items-center pt-4 ps-2">
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  <img class="footer__icon-img me-4" src="images/telegram.svg" alt="telegram">
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  <img class="footer__icon-img me-4" src="images/facebook.svg" alt="facebook">
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  <img class="footer__icon-img me-4" src="images/instagaram.svg" alt="instagaram">
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  <img class="footer__icon-img" src="images/youtube.svg" alt="youtube">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__box d-flex align-items-center " r>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__h4 mb-2">
+                  Bo‘limlar
+                </p>
+              </li>
+              <li class="footer__item mb-2">
+                <a class="footer__link" href="#">
+                  Maktablar faoliyati
+                </a>
+              </li>
+              <li class="footer__item mb-2">
+                <a class="footer__link" href="#">
+                  Galereya
+                </a>
+              </li>
+
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Adabiyotlar
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__list ps-5 pt-5">
+              <li class="footer__item mb-2">
+                <a class="footer__link" href="#">
+                  Hujjatlar
+                </a>
+              </li>
+              <li class="footer__item mb-2">
+                <a class="footer__link" href="#">
+                  Xizmatlar
+                </a>
+              </li>
+
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Xabarlar
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <p class="footer__text">
+              Murojaatlar uchun
+            </p>
+            <div class="footer__phone d-flex mb-2 pt-2">
+              <img class="footer__phone me-3" src="images/phone.svg" alt="phone">
+              <div class="d-flex flex-column">
+                <a class="footer__phone-number" href="+99899 139-49-70">
+                  +99899 139-49-70
+                </a>
+                <a class="footer__phone-number" href="+99899 139-49-70">
+                  +99899 139-49-70
+                </a>
+              </div>
+            </div>
+            <div class="footer__phone mb-3">
+              <img class="footer__location me-2" src="images/location.svg" alt="phone">
+              <a class="footer__phone-number" href="+99899 139-49-70">
+                Toshkent shahar, Sharof <br> Rashidov ko'chasi, 23-uy
+              </a>
+            </div>
+            <div class="footer__phone">
+              <img class="footer__location me-2" src="images/messeng.svg" alt="phone">
+              <a class="footer__phone-number" href="+99899 139-49-70">
+                info@milliygvardiya.uz
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="footer__hr">
+        <div class="footer__service d-flex align-items-center justify-content-between pt-3">
+          <p class="footer__desc">
+            © 2021 Barcha huquqlar himoyalangan
+          </p>
+          <p class="footer__online">
+            Sayt yaratuvchisi: Online Service Group
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>
