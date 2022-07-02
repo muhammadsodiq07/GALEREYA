@@ -1,0 +1,20 @@
+.galereya {
+  padding-top: 125px;
+}
+
+
+.galereya__list-holder {
+  padding-top: 48px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.galereya__list {
+  display: flex;
+  @include list-unstyled; 
+  transition: all 0.3s ease;
+}
+
+.galereya__item {
+  margin-right: 20px;
+}

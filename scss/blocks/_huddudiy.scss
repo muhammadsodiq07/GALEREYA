@@ -1,0 +1,90 @@
+.hududiy {
+  padding-top: 128px;
+}
+
+.hududiy__hr {
+  width: 128px;
+  border: 1px solid #938f6a;
+}
+
+.hududiy__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $title-color;
+}
+
+.hududiy__map {
+  width: 750px;
+  height: 500px;
+  margin-right: 88px;
+}
+
+.hududiy__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hududiy__info-div {
+  width: 550px;
+  height: auto;
+  padding-bottom: 24px;
+  border: 1px solid #d7dae4;
+}
+
+.hududiy__info-title {
+  background-color: #eae9e1;
+}
+
+.hududiy__info-t {
+  padding: 24px 48px;
+  font-family: $fonts-Brygada;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: $color-black;
+}
+
+.hududiy__info {
+  padding-left: 48px;
+}
+
+.hududiy__day1 {
+  margin-right: 137px;
+}
+.hududiy__day2 {
+  margin-right: 160px;
+}
+.hududiy__info-span {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: $color-black;
+}
+
+.hududiy__info-text {
+  font-family: $fonts-Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: $color-decs;
+}
+
+
+.hududiy__btn {
+  @include btn;
+  padding: 0;
+  background-color: transparent;
+  color: $color-black;
+  margin-left: 48px;
+
+  &:hover {
+    background-color: transparent;
+    color: $title-color;
+  }
+}

@@ -24,3 +24,12 @@
 .header__select {
   border: 1px solid transparent;
 }
+
+.header__link--active {
+  color: $title-color;
+}
+
+.text-deco {
+  display: inline-block !important;
+  text-decoration: none;
+}

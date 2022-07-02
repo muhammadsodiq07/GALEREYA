@@ -1,0 +1,117 @@
+.maktabfaolati {
+  padding-top: 80px;
+}
+.maktabfaolati__title {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 100px;
+  color: $title-color;
+}
+
+.maktabfaolati__img-div {
+  width: 1440px;
+  height: 700px;
+  padding-top: 40px;
+}
+.maktabfaolati__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rahbariyat__link--active {
+  position: relative;
+  padding: 14px 40px;
+  color: $title-color !important;
+  background-color: #f4f4f0;
+
+  &:hover {
+    background-color: #dedede;
+  }
+}
+.rahbariyat__link--active::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 2px solid $title-color;
+}
+
+.maktabfaolati__name {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  padding-top: 40px;
+  text-transform: uppercase;
+  color: $color-black;
+}
+
+.maktabfaolati__text {
+  font-family: $fonts-Manrope;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 28px;
+  line-height: 32px;
+  color: $color-black;
+}
+
+.maktabfaolati__span1 {
+  font-family: $fonts-Manrope;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 16px;
+  color: $color-black;
+}
+
+.maktabfaolati__span--bold {
+  font-weight: 700;
+}
+
+.maktabfaolati__item {
+  width: 48%;
+  height: auto;
+  @include list-unstyled;
+  border: 1px solid #d7dae4;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.maktabfaolati__box {
+  padding: 32px 40px;
+}
+.maktabfaolati__box-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $color-black;
+}
+
+.maktabfaolati__box-img {
+  padding: 14px;
+  background-color: #f4f4f0;
+}
+.maktabfaolati__box-img1 {
+  padding: 14px 16px;
+  background-color: #f4f4f0;
+}
+
+
+.maktabfaolati__box-link {
+  text-decoration: none;
+  font-family: $fonts-Manrope;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: $color-black;
+}

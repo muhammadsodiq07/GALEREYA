@@ -3,3 +3,20 @@
   margin: 0;
   list-style: none;
 }
+
+@mixin btn {
+  font-family: $fonts-Brygada;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: $text-color;
+  border: 1px solid transparent;
+  background-color: $title-color;
+
+  &:hover{ 
+    background-color: #908949;
+  }
+}

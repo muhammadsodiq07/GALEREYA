@@ -1,0 +1,20 @@
+.foydali {
+  padding-top: 100px;
+}
+
+.foydali__img {
+  width: 85px;
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.foydali__item {
+  width: 20%;
+ 
+  &:hover {
+    cursor: pointer;
+    background-color: $text-color;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+}

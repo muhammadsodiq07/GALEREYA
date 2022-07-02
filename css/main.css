@@ -35,6 +35,19 @@ ul {
   padding: 0 !important;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
@@ -79,6 +92,15 @@ ul {
 
 .header__select {
   border: 1px solid transparent;
+}
+
+.header__link--active {
+  color: #938f6a;
+}
+
+.text-deco {
+  display: inline-block !important;
+  text-decoration: none;
 }
 
 .galeria__title {
@@ -287,4 +309,844 @@ ul {
   font-size: 16px;
   line-height: 26px;
   color: #FBFBF9;
+}
+
+.header__img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../images/chavandozlar_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__text {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.33em;
+  text-transform: uppercase;
+  color: #2d3142;
+}
+
+.header__hero {
+  padding-top: 137px;
+}
+
+.header__title {
+  font-family: "Brygada 1918";
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0.02em;
+  color: #938f6a;
+}
+
+.header__desc {
+  font-family: "Manrope";
+  width: 708px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #575F7F;
+}
+
+.heaeder__btn1 {
+  font-family: "Brygada 1918";
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: #FBFBF9;
+  border: 1px solid transparent;
+  background-color: #938f6a;
+}
+.heaeder__btn1:hover {
+  background-color: #908949;
+}
+
+.heaeder__btn {
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  background-color: transparent;
+  border-radius: 6px;
+}
+.heaeder__btn:hover {
+  color: #938f6a;
+}
+
+.header__btn-icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.header__btn-icon2 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header__select1 {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.school {
+  padding-top: 128px;
+}
+
+.school__img-div {
+  width: 420px;
+  height: 520px;
+}
+
+.school__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.school__decs-div {
+  padding-top: 70px;
+}
+
+.school__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #938f6a;
+}
+
+.school__span {
+  font-family: "Manrope";
+  width: 836px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 48px;
+  line-height: 32px;
+  color: #575F7F;
+}
+
+.school__first {
+  margin-right: 100px;
+  margin-bottom: 48px;
+}
+
+.school__span-num {
+  font-family: "Brygada 1918";
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+}
+
+.school__place-text {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #575F7F;
+}
+
+.hududiy {
+  padding-top: 128px;
+}
+
+.hududiy__hr {
+  width: 128px;
+  border: 1px solid #938f6a;
+}
+
+.hududiy__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #938f6a;
+}
+
+.hududiy__map {
+  width: 750px;
+  height: 500px;
+  margin-right: 88px;
+}
+
+.hududiy__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hududiy__info-div {
+  width: 550px;
+  height: auto;
+  padding-bottom: 24px;
+  border: 1px solid #d7dae4;
+}
+
+.hududiy__info-title {
+  background-color: #eae9e1;
+}
+
+.hududiy__info-t {
+  padding: 24px 48px;
+  font-family: "Brygada 1918";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #2d3142;
+}
+
+.hududiy__info {
+  padding-left: 48px;
+}
+
+.hududiy__day1 {
+  margin-right: 137px;
+}
+
+.hududiy__day2 {
+  margin-right: 160px;
+}
+
+.hududiy__info-span {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #2d3142;
+}
+
+.hududiy__info-text {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #575F7F;
+}
+
+.hududiy__btn {
+  font-family: "Brygada 1918";
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: #FBFBF9;
+  border: 1px solid transparent;
+  background-color: #938f6a;
+  padding: 0;
+  background-color: transparent;
+  color: #2d3142;
+  margin-left: 48px;
+}
+.hududiy__btn:hover {
+  background-color: #908949;
+}
+.hududiy__btn:hover {
+  background-color: transparent;
+  color: #938f6a;
+}
+
+.xabarlar {
+  padding-top: 125px;
+}
+
+.xabarlar__title-div {
+  position: relative;
+}
+
+.xabarlar__hr {
+  width: 128px;
+  border: 1px solid #938f6a;
+}
+
+.xabarlar__title {
+  font-family: "Brygada 1918";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #938f6a;
+}
+
+.xabarlar__btn {
+  position: absolute;
+  right: 0;
+  font-family: "Brygada 1918";
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: #FBFBF9;
+  border: 1px solid transparent;
+  background-color: #938f6a;
+  padding: 0;
+  background-color: transparent;
+  color: #2d3142;
+  margin-left: 48px;
+}
+.xabarlar__btn:hover {
+  background-color: #908949;
+}
+.xabarlar__btn:hover {
+  background-color: transparent;
+  color: #938f6a;
+}
+
+.xabarlar__item {
+  width: 24%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.xabarlar__img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.xabarlar__item-div {
+  background-color: #FBFBF9;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-bottom: 10px;
+}
+
+.xabarlar__p {
+  padding-left: 16px;
+}
+
+.xabarlar__t {
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 16px;
+  margin: 0;
+  line-height: 32px;
+  color: #2d3142;
+}
+
+.xabarlar__span {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 10px;
+  color: #575F7F;
+}
+
+.xabarlar__btn2 {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.xabarlar__list-holder {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.xabarlar__list {
+  transition: all 0.3s ease;
+}
+
+.sirlari {
+  padding-top: 135px;
+}
+
+.sirlari__title-div {
+  padding-top: 200px;
+  padding-left: 100px;
+  background-color: #2d3142;
+}
+
+.sirlari__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FBFBF9;
+}
+
+.sirlari__text {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  color: #938f6a;
+}
+
+.galereya {
+  padding-top: 125px;
+}
+
+.galereya__list-holder {
+  padding-top: 48px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.galereya__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: all 0.3s ease;
+}
+
+.galereya__item {
+  margin-right: 20px;
+}
+
+.foydali {
+  padding-top: 100px;
+}
+
+.foydali__img {
+  width: 85px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.foydali__item {
+  width: 20%;
+}
+.foydali__item:hover {
+  cursor: pointer;
+  background-color: #FBFBF9;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.rahbariyat {
+  padding-top: 80px;
+}
+
+.rahbariyat__title {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #938f6a;
+  margin-bottom: 100px;
+}
+
+.rahbariyat__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.rahbariyat__exaple-list {
+  display: grid;
+  gap: 20px;
+}
+
+.rahbariyat__hr {
+  position: relative;
+  top: -5px;
+}
+
+.rahbariyat__ex-item:nth-child(7) {
+  margin-right: 30px;
+}
+
+.rahbariyat__ex-item {
+  padding-top: 40px !important;
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rahbariyat__ex-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #938f6a;
+  margin-bottom: 16px;
+}
+
+.rahbariyat__ex-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+  padding-top: 16px;
+  color: #2d3142;
+}
+
+.rahbariyat__ex-span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #aaafc5;
+  text-align: center;
+}
+
+.rahbariyat__ex-img {
+  width: 342px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.rahbariyat__link {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #2d3142;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.maktabfaolati {
+  padding-top: 80px;
+}
+
+.maktabfaolati__title {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 100px;
+  color: #938f6a;
+}
+
+.maktabfaolati__img-div {
+  width: 1440px;
+  height: 700px;
+  padding-top: 40px;
+}
+
+.maktabfaolati__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.rahbariyat__link--active {
+  position: relative;
+  padding: 14px 40px;
+  color: #938f6a !important;
+  background-color: #f4f4f0;
+}
+.rahbariyat__link--active:hover {
+  background-color: #dedede;
+}
+
+.rahbariyat__link--active::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 2px solid #938f6a;
+}
+
+.maktabfaolati__name {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  padding-top: 40px;
+  text-transform: uppercase;
+  color: #2d3142;
+}
+
+.maktabfaolati__text {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 28px;
+  line-height: 32px;
+  color: #2d3142;
+}
+
+.maktabfaolati__span1 {
+  font-family: "Manrope";
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 16px;
+  color: #2d3142;
+}
+
+.maktabfaolati__span--bold {
+  font-weight: 700;
+}
+
+.maktabfaolati__item {
+  width: 48%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #d7dae4;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.maktabfaolati__box {
+  padding: 32px 40px;
+}
+
+.maktabfaolati__box-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #2d3142;
+}
+
+.maktabfaolati__box-img {
+  padding: 14px;
+  background-color: #f4f4f0;
+}
+
+.maktabfaolati__box-img1 {
+  padding: 14px 16px;
+  background-color: #f4f4f0;
+}
+
+.maktabfaolati__box-link {
+  text-decoration: none;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #2d3142;
+}
+
+.sport {
+  width: 700px;
+  height: 400px;
+}
+
+.sport__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sport__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #2d3142;
+}
+
+.sport__span {
+  width: 640px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #2d3142;
+}
+
+.sport__rev2 {
+  padding-top: 80px;
+}
+
+.oquv__item {
+  width: 342px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.oquv__img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.oquv__title {
+  display: inline-block;
+  padding: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #2d3142;
+}
+
+.tosiqlar__item {
+  width: 30%;
+  height: 340px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+  background-color: #D9D9D9;
+}
+
+.tosiqlar__btn {
+  font-family: "Brygada 1918";
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: #FBFBF9;
+  border: 1px solid transparent;
+  background-color: #938f6a;
+}
+.tosiqlar__btn:hover {
+  background-color: #908949;
+}
+
+.bgcolor:hover {
+  width: 100%;
+  background-color: #FBFBF9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.xizmat__btn {
+  text-decoration: none;
+}
+
+.boglanish {
+  padding-top: 80px;
+}
+
+.boglanish__title {
+  margin: 50px;
+}
+
+.boglanish__form {
+  width: 585px;
+  height: auto;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  background-color: #FBFBF9;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.boglanish__inner-box {
+  padding: 48px 60px;
+}
+
+.boglanish__inner-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #2d3142;
+}
+
+.boglanish__input {
+  width: 450px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #d7dae4;
+  color: #2d3142;
+  outline: none;
+}
+
+.boglanish__btn {
+  margin-top: 50px;
+  font-family: "Brygada 1918";
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: #FBFBF9;
+  border: 1px solid transparent;
+  background-color: #938f6a;
+  width: 100%;
+}
+.boglanish__btn:hover {
+  background-color: #908949;
+}
+
+.boglanish__icon {
+  padding-top: 6px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.boglanish__link-num {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2d3142;
+}
+
+.boglanish__bg {
+  width: 585px;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #FBFBF9;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.boglanish__contact {
+  padding: 48px 60px;
+}
+
+.boglanish__list-icon {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.bpglanish__link-icon {
+  font-size: 24px;
+  color: #2d3142;
+}
+
+.bogalanish__map {
+  width: 830px;
+  height: 678px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,26 @@
+.sirlari {
+  padding-top: 135px;
+}
+.sirlari__title-div {
+  padding-top: 200px;
+  padding-left: 100px;
+  background-color: #2d3142;
+}
+
+.sirlari__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $text-color;
+}
+
+.sirlari__text {
+  font-family: $fonts-Manrope;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  color: $title-color;
+}

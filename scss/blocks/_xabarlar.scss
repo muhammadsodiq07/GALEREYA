@@ -1,0 +1,94 @@
+.xabarlar {
+  padding-top: 125px;
+}
+
+.xabarlar__title-div {
+  position: relative;
+}
+
+.xabarlar__hr {
+  width: 128px;
+  border: 1px solid #938f6a;
+}
+
+.xabarlar__title {
+  font-family: $fonts-Brygada;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $title-color;
+}
+
+.xabarlar__btn {
+  position: absolute;
+  right: 0;
+  @include btn;
+  padding: 0;
+  background-color: transparent;
+  color: $color-black;
+  margin-left: 48px;
+
+  &:hover {
+    background-color: transparent;
+    color: $title-color;
+  }
+}
+
+.xabarlar__item {
+  width: 24%;
+  height: auto;
+  @include list-unstyled;
+  margin-right: 20px;
+}
+
+.xabarlar__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.xabarlar__item-div {
+  background-color: $text-color;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-bottom: 10px;
+}
+
+.xabarlar__p {
+  padding-left: 16px;
+}
+
+.xabarlar__t {
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 16px;
+  margin: 0;
+  line-height: 32px;
+  color: $color-black;
+}
+
+.xabarlar__span {
+  font-family: $fonts-Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 10px;
+  color: $color-decs;
+}
+
+.xabarlar__btn2 {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.xabarlar__list-holder {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.xabarlar__list {
+  transition: all 0.3s ease;
+}
+

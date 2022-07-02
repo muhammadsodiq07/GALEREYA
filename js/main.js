@@ -15,3 +15,5 @@ elDescBtn.addEventListener("click", () => {
   eldescSummaryInfo.classList.add("show-it");
   elDescSpecification.classList.remove("show-it");
 });
+
+
