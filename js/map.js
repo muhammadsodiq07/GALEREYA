@@ -148,7 +148,12 @@ jizzah.addEventListener("click", () => showData(jizzah, 12));
 sirdaryo.addEventListener("click", () => showData(sirdaryo, 13));
 
 function showData(smth,num) {
-  document.querySelector(".map-svg path").setAttribute("fill", "#d4d3c4")
+  let a = document.querySelectorAll(".map-svg path");
+
+  a.forEach(item => {
+    item.setAttribute("fill", "#d4d3c4");
+  })
+
   smth.setAttribute("fill", "#938F6A");
   list.innerHTML = ""
   objMap.forEach((item) => {
@@ -205,7 +210,7 @@ function showData(smth,num) {
                 </a>
         `;
   
-      list.appendChild(elItem);
+      list.appendChild(elItem);image.png
       console.log(list);
     }
 
